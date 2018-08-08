@@ -15,12 +15,12 @@ class Invoice{
         void setNum(int n);
         void setDesc(std::string d);
         void setQuant(int q);
-        void setPreco(int p);
+        void setPreco(double p);
         int getNum();
         std::string getDesc();
         int getQuant();
-        int getPreco();
-        void getInvoiceAmount();
+        double getPreco();
+        double getInvoiceAmount();
 
-
+};
 #endif
