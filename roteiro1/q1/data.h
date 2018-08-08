@@ -9,9 +9,9 @@ class Data{
         int ano;
     public:
         Data(int d, int m, int a);
-        //void setDia(int d);
-        //void setMes(int m);
-        //void setAno(int a);
+        void setDia(int d);
+        void setMes(int m);
+        void setAno(int a);
         int getDia();
         int getMes();
         int getAno();
