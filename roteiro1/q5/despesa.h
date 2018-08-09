@@ -9,11 +9,12 @@ class Despesa{
         double valor;
         std::string tipogasto;
     public:
+        Despesa();
         Despesa(double v, std::string t);
         void setValor(int v);
         void setTipoGasto(std::string t);
         double getValor();
-        str::string getTipoGasto(); 
+        std::string getTipoGasto(); 
 
 };
 #endif

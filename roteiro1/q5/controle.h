@@ -9,9 +9,11 @@ class Controle{
     private:
         Despesa despesa[3];
     public:
-        void setDespesas(Despesa d, int i);
-        void calculaTotal();
-        bool existeDespesa();
+        Controle();
+        void setDespesas(std::string t, int v, int i);
+        double calculaTotal();
+        bool existeDespesa(std::string uin);
 
 };
+
 #endif

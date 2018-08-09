@@ -1,5 +1,10 @@
 #include "despesa.h"
 
+Despesa::Despesa(){
+    valor = 0;
+    tipogasto = "";
+}
+
 Despesa::Despesa(double v, std::string t){
     valor = v;
     tipogasto = t;
@@ -17,6 +22,6 @@ double Despesa::getValor(){
     return valor;
 }
 
-str::string Despesa::getTipoGasto(){
+std::string Despesa::getTipoGasto(){
     return tipogasto;
 }

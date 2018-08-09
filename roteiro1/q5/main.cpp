@@ -6,5 +6,15 @@ using namespace std;
 
 int main(){
 
+    Controle controle1; 
+
+    controle1.setDespesas("carro",1200,0);
+    controle1.setDespesas("comida",300,1);
+    controle1.setDespesas("pc",800,2);
+
+    cout << controle1.calculaTotal() << endl;
+    cout << controle1.existeDespesa("comida") << endl;
+    cout << controle1.existeDespesa("teste") << endl;
+
     return 0;
 }
