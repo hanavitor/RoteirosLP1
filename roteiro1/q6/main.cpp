@@ -14,6 +14,7 @@ int main(){
     cout << c1.existePagamento("joao") << endl;
     cout << c1.existePagamento("carlos") << endl;
     cout << c1.getPagamento(1) << endl;
+    cout << c1.calculaPagamentos() << endl;
 
     return 0;
 }

@@ -11,6 +11,7 @@ class Controle{
     public:
         Controle();
         void setPagamentos(double v, std::string n, int i);
+        double calculaPagamentos();
         double getPagamento(int i);
         bool existePagamento(std::string n);
 

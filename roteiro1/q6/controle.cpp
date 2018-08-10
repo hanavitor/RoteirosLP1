@@ -9,6 +9,10 @@ void Controle::setPagamentos(double v, std::string n, int i){
     p1[i].setNome(n);
 }
 
+double Controle::calculaPagamentos(){
+    return p1[0].getValor() + p1[1].getValor() + p1[2].getValor();
+}
+
 double Controle::getPagamento(int i){
     return p1[i].getValor();
 }
