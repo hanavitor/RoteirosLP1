@@ -7,7 +7,7 @@
 class Controle{
 
     private:
-        Despesa despesa[3];
+        Despesa despesa[100];
     public:
         Controle();
         void setDespesas(Despesa d, int i);

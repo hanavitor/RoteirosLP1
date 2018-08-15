@@ -9,7 +9,10 @@ void Controle::setPagamentos(Pagamentos p, int i){
 }
 
 double Controle::calculaPagamentos(){
-    return p1[0].getValor() + p1[1].getValor() + p1[2].getValor();
+    double valor = 0;
+    for(int i = 0;i<100;i++)
+        valor += p1[i].getValor();
+    return valor;
 }
 
 double Controle::getPagamento(int i){
@@ -17,7 +20,7 @@ double Controle::getPagamento(int i){
 }
 
 bool Controle::existePagamento(std::string n){
-    for(int i = 0;i < 3;i++){
+    for(int i = 0;i < 100;i++){
         if(p1[i].getNome().compare(n) == 0){
             return 1;
         }

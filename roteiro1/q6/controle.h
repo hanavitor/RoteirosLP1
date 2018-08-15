@@ -7,7 +7,7 @@
 class Controle{
 
     private:
-        Pagamentos p1[3];
+        Pagamentos p1[100];
     public:
         Controle();
         void setPagamentos(Pagamentos p, int i);
