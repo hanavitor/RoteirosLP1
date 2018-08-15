@@ -4,9 +4,8 @@ Controle::Controle(){
 
 }
 
-void Controle::setPagamentos(double v, std::string n, int i){
-    p1[i].setValor(v);
-    p1[i].setNome(n);
+void Controle::setPagamentos(Pagamentos p, int i){
+    p1[i] = p; 
 }
 
 double Controle::calculaPagamentos(){

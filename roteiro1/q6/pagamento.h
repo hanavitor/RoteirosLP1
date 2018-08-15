@@ -10,6 +10,7 @@ class Pagamentos{
         std::string nome;
     public:
         Pagamentos();
+        Pagamentos(double v, std::string n);
         void setValor(double v);
         void setNome(std::string n);
         double getValor();

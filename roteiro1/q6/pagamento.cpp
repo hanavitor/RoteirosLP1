@@ -5,6 +5,11 @@ Pagamentos::Pagamentos(){
     nome = "";
 }
 
+Pagamentos::Pagamentos(double v, std::string n){
+    nome = n;
+    valor = v;
+}
+
 void Pagamentos::setValor(double v){
     valor = v;
 }

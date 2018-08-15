@@ -10,7 +10,7 @@ class Controle{
         Pagamentos p1[3];
     public:
         Controle();
-        void setPagamentos(double v, std::string n, int i);
+        void setPagamentos(Pagamentos p, int i);
         double calculaPagamentos();
         double getPagamento(int i);
         bool existePagamento(std::string n);
