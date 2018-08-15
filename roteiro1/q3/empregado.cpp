@@ -4,6 +4,9 @@ Empregado::Empregado(std::string n, std::string so, double s){
     nome = n;
     sobrenome = so;
     salario = s;
+    if(s < 0){
+        salario = 0;
+    }
 }
 
 void Empregado::setNome(std::string n){
