@@ -4,9 +4,8 @@ Controle::Controle(){
 
 }
 
-void Controle::setDespesas(std::string t, int v, int i){
-    despesa[i].setValor(v);
-    despesa[i].setTipoGasto(t);
+void Controle::setDespesas(Despesa d, int i){
+    despesa[i] = d;
 }
 
 double Controle::calculaTotal(){

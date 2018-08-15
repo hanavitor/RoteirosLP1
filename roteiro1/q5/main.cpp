@@ -8,8 +8,8 @@ int main(){
 
     Controle controle1; 
 
-    controle1.setDespesas("carro",1200,0);
-    controle1.setDespesas("comida",300,1);
+    controle1.setDespesas(Despesa(1200,"carro"),0);
+    controle1.setDespesas(Despesa(300,"comida"),1);
 
     cout << controle1.calculaTotal() << endl;
     cout << controle1.existeDespesa("comida") << endl;

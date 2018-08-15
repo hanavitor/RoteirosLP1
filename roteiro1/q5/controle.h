@@ -10,7 +10,7 @@ class Controle{
         Despesa despesa[3];
     public:
         Controle();
-        void setDespesas(std::string t, int v, int i);
+        void setDespesas(Despesa d, int i);
         double calculaTotal();
         bool existeDespesa(std::string uin);
 
