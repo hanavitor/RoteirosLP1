@@ -11,7 +11,7 @@ class Mesa{
         Pedido pedido[100];
     public:
         Mesa();
-        void adicionaAoPedido(int n,std::string d,double q, double p);
+        int adicionaAoPedido(Pedido pe);
         void zeraPedidos();
         double calculaTotal();
 

@@ -1,16 +1,19 @@
 #include "mesa.h"
 
-
 Mesa::Mesa(){
     np = 0;
 }
 
-void Mesa::adicionaAoPedido(int n, std::string d, double q, double p){
-    pedido[np].setNumero(n);
-    pedido[np].setDesc(d);
-    pedido[np].setQuant(q);
-    pedido[np].setPreco(p);
+int Mesa::adicionaAoPedido(Pedido pe){
+    for(int i = 0;i<np;i++){ 
+        if(pe.getDesc().compare(pedido[i].getDesc()) == 0){
+            pedido[i].setQuant(pedido[i].getQuant()+pe.getQuant());
+            return 1;
+        }
+    }
+    pedido[np] = pe;
     np++;
+    return 0;
 }
 
 void Mesa::zeraPedidos(){

@@ -12,6 +12,7 @@ class Pedido{
         double preco;
     public:
         Pedido();
+        Pedido(int n, std::string d, double q, double p);
         int getNumero();
         std::string getDesc();
         double getQuant();

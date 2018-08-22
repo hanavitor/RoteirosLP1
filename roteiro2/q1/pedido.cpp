@@ -7,6 +7,13 @@ Pedido::Pedido(){
     preco = 0;
 }
 
+Pedido::Pedido(int n, std::string d, double q, double p){
+    numero = n;
+    desc = d;
+    quant = q;
+    preco = p;
+}
+
 int Pedido::getNumero(){
     return numero;
 }
