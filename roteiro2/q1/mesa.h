@@ -11,6 +11,7 @@ class Mesa{
         Pedido pedido[100];
     public:
         Mesa();
+        int getNp();
         int adicionaAoPedido(Pedido pe);
         void zeraPedidos();
         double calculaTotal();

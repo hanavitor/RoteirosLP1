@@ -11,7 +11,8 @@ class Restaurante{
         int npr;
     public:
         Restaurante();
-        void adicionaAoPedido(Pedido pe);
+        int getNpr();
+        void adicionaAoPedido(int i, Pedido pe);
         double calculaTotal();
         void zerarRestaurante();
 

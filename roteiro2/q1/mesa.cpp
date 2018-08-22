@@ -4,6 +4,10 @@ Mesa::Mesa(){
     np = 0;
 }
 
+int Mesa::getNp(){
+    return np;
+}
+
 int Mesa::adicionaAoPedido(Pedido pe){
     for(int i = 0;i<np;i++){ 
         if(pe.getDesc().compare(pedido[i].getDesc()) == 0){
