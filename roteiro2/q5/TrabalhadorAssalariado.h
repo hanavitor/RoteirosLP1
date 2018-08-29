@@ -8,6 +8,8 @@ class TrabalhadorAssalariado : public Trabalhador{
 
     private:
     public:
+        TrabalhadorAssalariado(std::string n, double salario);
+        double calcularPagamentoSemanal();
 
 };
 #endif

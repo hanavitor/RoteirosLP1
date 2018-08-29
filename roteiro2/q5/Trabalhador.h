@@ -7,9 +7,11 @@ class Trabalhador{
 
     protected:
         std::string nome;
-        double ;
+        double salario;
     public:
-        
+        Trabalhador(std::string n);
+        Trabalhador(std::string n, double s);
+        double calcularPagamentoSemanal(int horas); 
 
 };
 #endif
