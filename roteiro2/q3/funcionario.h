@@ -18,6 +18,7 @@ class Funcionario{
         std::string getMatricula();
         std::string getNome();
         int getSalario();
+        std::string returnString();
 
 };
 #endif

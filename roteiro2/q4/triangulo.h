@@ -12,6 +12,7 @@ class Triangulo : public FiguraGeometrica{
     public:
         Triangulo();
         Triangulo(double a,double b);
+        double calcularArea();
 
 };
 #endif

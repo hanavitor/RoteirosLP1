@@ -12,10 +12,12 @@ int main(){
     cout << funcionario.getSalario() << endl;
     cout << funcionario.getNome() << endl;
     cout << funcionario.getMatricula() << endl;
+    cout << funcionario.returnString() << endl;
 
     cout << consultor.getSalario(0.1) << endl;
     cout << consultor.getNome() << endl;
     cout << consultor.getMatricula() << endl;
+    cout << consultor.returnString() << endl;
 
     return 0;
 }

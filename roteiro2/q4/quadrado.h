@@ -12,6 +12,7 @@ class Quadrado : public FiguraGeometrica{
     public:
         Quadrado();
         Quadrado(double a, double b);
+        double calcularArea();
 
 };
 #endif

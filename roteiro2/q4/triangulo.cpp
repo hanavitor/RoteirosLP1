@@ -6,5 +6,10 @@ Triangulo::Triangulo(){
 
 Triangulo::Triangulo(double a,double b){
     nome = "trianglo";
-    area = a;
+    altura = a;
     base = b;
+}
+
+double Triangulo::calcularArea(){
+    return (altura * base)/2;
+}

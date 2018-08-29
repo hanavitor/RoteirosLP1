@@ -35,3 +35,7 @@ std::string Funcionario::getNome(){
 int Funcionario::getSalario(){
     return salario;
 }
+
+std::string Funcionario::returnString(){
+    return nome + " " + matricula + " " + std::to_string(salario);
+}

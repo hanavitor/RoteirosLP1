@@ -11,6 +11,7 @@ class Circulo : public FiguraGeometrica{
     public:
         Circulo();
         Circulo(double r);
+        double calcularArea();
 
 };
 #endif
