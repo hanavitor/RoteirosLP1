@@ -12,6 +12,7 @@ class Trabalhador{
         Trabalhador(std::string n);
         Trabalhador(std::string n, double s);
         double calcularPagamentoSemanal(int horas); 
+        void setSalario(double s);
 
 };
 #endif

@@ -13,3 +13,7 @@ Trabalhador::Trabalhador(std::string n, double s){
 double Trabalhador::calcularPagamentoSemanal(int horas){
     return 0;
 }
+
+void Trabalhador::setSalario(double s){
+    salario = s;
+}

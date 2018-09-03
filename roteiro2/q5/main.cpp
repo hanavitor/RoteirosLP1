@@ -11,6 +11,10 @@ int main(){
     TrabalhadorPorHora trab2("joao",50);
 
     cout << trab1.calcularPagamentoSemanal() << endl;
+    cout << trab2.calcularPagamentoSemanal(39) << endl;
+    trab2.setSalario(0);
+    cout << trab2.calcularPagamentoSemanal(40) << endl;
+    trab2.setSalario(0);
     cout << trab2.calcularPagamentoSemanal(41) << endl;
 
     return 0;
