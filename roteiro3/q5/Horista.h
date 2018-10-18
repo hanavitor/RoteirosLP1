@@ -7,7 +7,11 @@
 class Horista : public Funcionario{
 
     private:
+        double salarioPorHora;
+        double horasTrabalhadas;
     public:
+        Horista(std::string n, int m, double s, double h);
+        double calculaSalario();
 
 };
 #endif
