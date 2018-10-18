@@ -1,0 +1,1 @@
+1- Polimorfismo uma classe pai é representada com o comportamento de uma classe filha, é caracterizado quando 
