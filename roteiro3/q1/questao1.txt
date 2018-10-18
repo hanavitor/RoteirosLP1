@@ -1,1 +1,1 @@
-1- Polimorfismo uma classe pai é representada com o comportamento de uma classe filha, é caracterizado quando 
+1- Polimorfismo é quando uma classe pai é instanciada como objeto de uma classe filha, com isso podemos utilizar os metodos que tem a mesma assinatura de metodos na classe pai mas podem ter comportamento diferente na classe filha, ou quando a classe pai é abstrada onde os metodos são apenas declarados e não definidos, delegando a definição para a clase filha.
