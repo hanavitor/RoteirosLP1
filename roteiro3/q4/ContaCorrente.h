@@ -11,7 +11,7 @@ class ContaCorrente : public Conta{
         double limite;
     public:
         ContaCorrente();
-        ContaCorrente(std::string n, int num, double s, double sal, double l);
+        ContaCorrente(std::string n, int num, double s, double sal);
         double definirLimite();
         void setSalario(double sal);
         void setLimite(double l);

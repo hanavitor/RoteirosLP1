@@ -4,9 +4,9 @@ ContaCorrente::ContaCorrente(){
 
 }
 
-ContaCorrente::ContaCorrente(std::string n, int num, double s, double sal, double l):Conta(n,num,s){
+ContaCorrente::ContaCorrente(std::string n, int num, double s, double sal):Conta(n,num,s){
     salario = sal;
-    limite = l;
+    limite = definirLimite();
 }
 
 double ContaCorrente::definirLimite(){

@@ -9,7 +9,7 @@ class ContaEspecial : public ContaCorrente{
     private:
     public:
         ContaEspecial();
-        ContaEspecial(std::string n, int num, double s, double sal, double l);
+        ContaEspecial(std::string n, int num, double s, double sal);
         double definirLimite();
 
 };

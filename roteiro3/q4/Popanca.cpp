@@ -12,10 +12,10 @@ Poupanca::Poupanca(std::string n, int num, double s, int v, int t):Conta(n,num,s
 double Poupanca::render(){
 
     if(variacao == 51){
-        saldo = saldo + (saldo * taxaRendimento);
+        saldo = saldo + (saldo * (taxaRendimento/100));
     }
     if(variacao == 1){
-        saldo = saldo + (saldo * (taxaRendimento + 0.005));
+        saldo = saldo + (saldo * ((taxaRendimento + 0.5)/100));
     }
 
 }

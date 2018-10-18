@@ -4,8 +4,8 @@ ContaEspecial::ContaEspecial(){
 
 }
 
-ContaEspecial::ContaEspecial(std::string n, int num, double s, double sal, double l):ContaCorrente(n,num,s,sal,l){
-
+ContaEspecial::ContaEspecial(std::string n, int num, double s, double sal):ContaCorrente(n,num,s,sal){
+    limite = definirLimite();
 }
 
 double ContaEspecial::definirLimite(){
